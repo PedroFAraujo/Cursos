@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'paragrafo-mine';
+    src: url("fonts/Minecrafter-reg.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src:url("fonts/Minecraft.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'mine';
+    src: url("fonts/fonte2mine.ttf") format('truetype');
+}
+
+h1{
+    text-align: center;
+    font-family: 'Minecraft';
+    color: rgb(0, 51, 0);
+}
+
+h2{
+    font-family: 'mine';
+}
+
+p{
+    font-family: 'paragrafo-mine';
+    color: rgb(43, 20, 0);
+    text-align: justify;
+}
+
+body{
+    background-color: rgb(35, 27, 0);
+}
+
+main{
+    background-color: rgb(191, 251, 191);
+    height: 600px;
+    width: 700px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}

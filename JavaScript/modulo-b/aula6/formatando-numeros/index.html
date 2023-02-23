@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+        <style>
+            body{
+                font-size: 20pt;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var n1 = Number.parseFloat(window.prompt("Digite um número: "))
+            var salario = 1569.5
+
+            document.write(`${n1} com duas casas decimal fica ${n1.toFixed(2)} <br>`) //toFixed()
+            document.write(`${n1} com duas casas decimais e virgula fica ${n1.toFixed(2).replace('.' , ',')}`) //toFixed substituindo o ponto pela virgula
+      
+            salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+            
+        </script>
+    </body>
+</html>

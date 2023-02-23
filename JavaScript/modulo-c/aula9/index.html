@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testando DOM</h1>
+    <h2 class="subtitulo">DOM no user agent</h2>
+    <div id="msg"><abbr title="Document Object Model">DOM</abbr></div>
+    <p>Aprendendo a usar <strong>DOM</strong> com JavaScript</p>
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var div = window.document.getElementById('msg')
+        var subtitulo = window.document.querySelector('h2.subtitulo')
+        window.document.write("JAVASCRIPT: <br>")
+        p1.style.color = 'blue'
+        document.write(p1.innerHTML)
+        div.innerText = "Alterando o conteúdo da div com JavaScript"
+        subtitulo.style.background = 'yellow' //mudando o background-color do h2
+
+
+    </script>
+</body>
+</html>

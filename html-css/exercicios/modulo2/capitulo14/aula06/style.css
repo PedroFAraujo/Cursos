@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: lightblue;
+}
+p{
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    color: rgb(0, 0, 47);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive, serif;
+    color: darkblue;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace, serif;
+    color: #4545ac;
+}
+
+h3{
+    font-family: 'EB Garamond', serif;
+    color: #4f4f7c;
+}
+
+#texto2{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 2px 2px 15px rgba(0, 0, 255, 0.445);
+    
+}

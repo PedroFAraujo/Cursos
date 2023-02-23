@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech&display=swap');
+
+@font-face{
+    font-family:'Android';
+    src: url('idroid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header#cabecalho{
+    background-image: linear-gradient(rgb(171, 255, 171), rgb(0, 100, 0) );
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgba(0, 32, 4, 0.379);
+}
+
+header#cabecalho > h1{
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.367);
+}
+
+header#cabecalho > h2{
+    font-size: 1em;
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.367);
+    font-weight: lighter;
+}
+
+nav{
+    background-color: rgba(0, 113, 0, 0.813);
+    margin: 0px;
+    text-align: left;
+    outline: 9px solid rgba(0, 113, 0, 0.813);
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav >a:hover{
+    color: rgb(243, 243, 243);
+    text-decoration: underline;
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    width: 850px;
+    padding: 20px;
+    box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.435);
+}
+
+.fonte{
+    font-family: 'Share Tech', 'Roboto', sans-serif;
+    color: darkgreen;
+    background-color: #e4fee4;
+}
+
+h1#hist-droid{
+    color: darkgreen;
+    background-color: white;
+}
+
+.imagem{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+#curiosidade{
+    background-color: #C6ECD7;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 0px 10px 10px 10px;
+}
+
+#aprender{
+    background-color: #37ac6c;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: lighter;
+    padding: 10px;
+    outline: 11px solid #37ac6c;
+    margin-bottom: 0px;
+}
+
+footer{
+    background-color: darkgreen;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#rodape{
+    margin: 0px;
+
+}
+
+footer > p{
+    text-align: center;
+}
+
+#link-rodape{
+    color: lightgreen;
+    text-decoration: none;
+
+}
+
+#link-rodape:hover{
+    color: rgb(243, 243, 243);
+    text-decoration: underline;
+}
+
+.lista{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}

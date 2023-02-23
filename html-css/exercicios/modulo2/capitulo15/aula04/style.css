@@ -1,0 +1,21 @@
+body{
+    font: normal 16px arial, vernana, sans-serif;
+}
+
+#html{
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+#html::first-letter{
+    color: blue;
+}
+
+#html::before{
+    content: '⇒';
+}
+
+#html::after{
+    content: '⇐';
+}

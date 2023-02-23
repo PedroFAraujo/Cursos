@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+        
+        input#txtvel{
+            width: 100px;
+        }
+
+        input#botao{
+            width: 75px;
+            height: 25px;
+        }
+
+        div#resultado{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Velocidade</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel" > Km/h
+    <input type="button" value="Avaliar" id="botao" onclick="calcular()">
+    <div id="resultado"></div>
+    <script>
+        function calcular(){
+            var caixavel = document.querySelector('input#txtvel')
+            var vel = Number(caixavel.value)
+            var resultado = document.querySelector('div#resultado')
+            resultado.innerHTML = `<p>Sua velocidade é de <strong>${vel}Km/h</strong></p>`
+            resultado.innerHTML += `<p>Dirija sempre com cinto de segurança</p>`
+            if (vel > 50){
+                resultado.innerHTML += '<strong>Multado</strong> por excesso de velocidade'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<table>
+        <tr>
+              <td>A1</td>
+              <td>B1</td>
+              <td>C1</td>
+         </tr>
+<table>
+
+
+<table> - (table) delimita a tabela
+<tr> - ( table row) linha da tabela
+<td> - (table data) informações da tabela 
+
+HIERARQUIA DE TABELAS SIMPLES
+table - tabela
+    table row - linha da tabela
+         table header   - cabeçalho da tabela
+          table data - dados da tabela
+
+Se a hierarquia nao for obedecida, os dados irao aparecer antes ou depois da tabela
