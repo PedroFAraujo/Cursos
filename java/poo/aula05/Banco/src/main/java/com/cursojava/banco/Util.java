@@ -85,6 +85,8 @@ public final class Util {
     
     public void statusConta(){
         System.out.println("------------------------------");
+        System.out.println("Dono: " + this.getDono());
+        System.out.println("Número da conta: " + this.getNumConta());
         System.out.println("Status: " + this.status);
         System.out.println("Tipo de conta: " +this.getTipo());
         System.out.println("Saldo Final: R$" +this.getSaldo());
